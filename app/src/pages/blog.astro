@@ -1,9 +1,16 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import BlogPostLink from '../components/BlogPostLink.astro';
+import { getCollection } from "astro:content";
 
+const allPosts = await getCollection("blog");
 const pageTitle = "Blog";
 ---
 
 <BaseLayout pageTitle={pageTitle}>
-  <p>Content goes here</p>
+  <h2>Here are my blog posts!</h2>
+
+  <ul>
+    {allPosts.map((post: any) => <BlogPostLink url={`/posts/${post.id}/`} title={post.data.title} />)}
+  </ul>
 </BaseLayout>

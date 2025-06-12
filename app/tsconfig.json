@@ -1,4 +1,5 @@
 {
+	"extends": "astro/tsconfigs/strict",
 	"compilerOptions": {
 		/* Visit https://aka.ms/tsconfig.json to read more about this file */
 
@@ -41,5 +42,5 @@
 		]
 	},
 	"exclude": ["test"],
-	"include": ["worker-configuration.d.ts", "src/**/*.ts", "index.ts", "index.ts"]
+	"include": ["worker-configuration.d.ts", "src/**/*.ts", "index.ts", ".astro/types.d.ts", "index.ts", "**/*"]
 }
