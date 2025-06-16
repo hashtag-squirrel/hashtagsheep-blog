@@ -1,8 +1,6 @@
 ---
 title: "My Second Blog Post"
 pubDate: 2025-06-12
-description: "This is my first 3d printing blog post"
-author: "hashtagsheep"
 image:
     url:
     alt:

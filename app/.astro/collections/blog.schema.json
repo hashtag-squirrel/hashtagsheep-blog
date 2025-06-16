@@ -23,12 +23,6 @@
             }
           ]
         },
-        "description": {
-          "type": "string"
-        },
-        "author": {
-          "type": "string"
-        },
         "tags": {
           "type": "array",
           "items": {
@@ -42,8 +36,6 @@
       "required": [
         "title",
         "pubDate",
-        "description",
-        "author",
         "tags"
       ],
       "additionalProperties": false

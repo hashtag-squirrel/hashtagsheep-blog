@@ -1,8 +1,6 @@
 ---
 title: "My First Blog Post"
 pubDate: 2025-06-11
-description: "This is my first woodworking blog post"
-author: "hashtagsheep"
 image:
     url:
     alt:
