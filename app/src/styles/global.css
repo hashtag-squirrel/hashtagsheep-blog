@@ -1,3 +1,21 @@
+/* colors */
+/* CSS HEX */
+:root {
+--ultra-violet: #4B4378ff;
+--ash-gray: #AFB3ADff;
+--periwinkle: #CCCAE6ff;
+--caf-noir: #47301Aff;
+--raw-umber: #8A603Aff;
+
+/* CSS HSL */
+--ultra-violet: hsla(249, 28%, 37%, 1);
+--ash-gray: hsla(100, 4%, 69%, 1);
+--periwinkle: hsla(244, 36%, 85%, 1);
+--caf-noir: hsla(29, 46%, 19%, 1);
+--raw-umber: hsla(29, 41%, 38%, 1);
+}
+
+
 /* nav styles */
 
 .hamburger {
