@@ -12,11 +12,13 @@
 	},
 	"devDependencies": {
 		"@cloudflare/vitest-pool-workers": "^0.8.19",
-		"typescript": "^5.5.2",
+		"typescript": "^5.8.3",
 		"vitest": "~3.0.7",
 		"wrangler": "^4.19.1"
 	},
 	"dependencies": {
-		"astro": "^5.9.1"
+		"@astrojs/check": "^0.9.4",
+		"astro": "^5.9.2",
+		"preact": "^10.26.9"
 	}
 }
