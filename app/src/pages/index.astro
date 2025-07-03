@@ -1,10 +1,39 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import Hero1 from 'fulldev-ui/blocks/Hero1.astro'
+import Features1 from 'fulldev-ui/blocks/Features1.astro'
 
 const pageTitle = "Home";
 ---
 
 <BaseLayout pageTitle={pageTitle}>
-  <h2>My awesome website subtitle</h2>
-  <p>Content goes here</p>
+  <section>
+    <Hero1
+      heading="Hashtagsheep"
+      paragraph="Welcome to my blog about my woodworking and other crafting endeavours"
+      image={{ src: '/images/hero.jpg' }}
+    />
+  </section>
+  <section>
+    <Features1
+      heading="Recent posts"
+      cards={[
+        {
+          heading: 'Lorem ipsum',
+          paragraph: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+          button: { text: 'Lorem ipsum', href: '' },
+        },
+        {
+          heading: 'Lorem ipsum',
+          paragraph: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+          button: { text: 'Lorem ipsum', href: '' },
+        },
+        {
+          heading: 'Lorem ipsum',
+          paragraph: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+          button: { text: 'Lorem ipsum', href: '' },
+        },
+      ]}
+    />
+  </section>
 </BaseLayout>
