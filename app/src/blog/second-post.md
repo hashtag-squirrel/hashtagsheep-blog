@@ -4,7 +4,7 @@ pubDate: 2025-06-12
 image:
     url:
     alt:
-tags: ["3d printing", "blog"]
+tags: ["3d printing", "blog", "highlight"]
 ---
 
 # Second Blog Post Title
