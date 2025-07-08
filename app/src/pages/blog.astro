@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import BlogPostLink from '../components/BlogPostLink.astro';
+import Button from 'fulldev-ui/components/Button.astro'
 import { getCollection } from "astro:content";
 
 const allPosts = await getCollection("blog");
@@ -12,7 +13,8 @@ const pageTitle = "Blog";
 <BaseLayout pageTitle={pageTitle}>
   <div class="tags">
     {tags.map((tag) => (
-        <p class="tag"><a href={`/tags/${tag}`}>{tag}</a></p>
+        <Button class="tag"><a href={`/tags/${tag}`}>{tag}</a></Button>
+        <p class="tag"></p>
     ))}
   </div>
   <ul>

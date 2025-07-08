@@ -4,7 +4,7 @@ pubDate: 2025-06-11
 image:
     url:
     alt:
-tags: ["woodworking", "blog"]
+tags: ["woodworking", "blog", "highlight"]
 ---
 
 # First Blog Post Title

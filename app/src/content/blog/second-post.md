@@ -2,7 +2,7 @@
 title: "My Second Blog Post"
 pubDate: 2025-06-12
 image:
-    url:
+    url: "/images/hs-logo.png"
     alt:
 tags: ["highlight", "3d printing", "blog"]
 ---

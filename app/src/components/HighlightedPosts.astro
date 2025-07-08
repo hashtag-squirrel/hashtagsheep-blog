@@ -1,0 +1,39 @@
+---
+import { getCollection } from 'astro:content';
+import Card from "fulldev-ui/structures/Card.astro"
+
+const allPosts = await getCollection("blog");
+const highlightedPosts = allPosts.filter((post: any) => post.data.tags.includes("highlight"))
+---
+
+<section class="py-16 bg-gray-50">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center mb-12">
+      <h2 class="text-3xl font-extrabold text-gray-900">Featured Posts</h2>
+    </div>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+      {highlightedPosts.map(post => (
+        <div class="bg-white shadow-md rounded-lg p-6 hover:shadow-xl transition-shadow duration-300">
+            <a href={`/posts/${post.id}`}>
+            <img
+                src={post.data.image.url}
+                alt={post.data.image.alt}
+                class="w-full h-48 object-cover"
+            />
+          <h3 class="text-xl font-semibold text-gray-900 mb-2">{post.data.title}</h3>
+          <p class="text-gray-600 text-sm mb-4">{post.data.description}</p>
+          <a href={`/posts/${post.id}`} class="text-blue-600 hover:text-blue-800 text-sm font-medium">Read more →</a>
+          </a>
+        </div>
+        
+      ))}
+    </div>
+  </div>
+
+</section>
+
+  <Card
+    heading="Lorem Ipsum"
+    href="/blog"
+    image={{ src: '/images/hs-logo.png' }}
+  />
