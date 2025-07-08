@@ -1,0 +1,18 @@
+---
+import Section from 'fulldev-ui/structures/Section.astro'
+import Group from 'fulldev-ui/structures/Group.astro'
+import Button from 'fulldev-ui/components/Button.astro'
+
+import { getCollection } from "astro:content";
+
+const allPosts = await getCollection("blog");
+const tags = [...new Set(allPosts.map((post: any) => post.data.tags).flat())];
+---
+<Section class:list="flex flex-col gap-12 pt-0">
+<Group>
+    {tags.map((tag) => (
+        <Button class="tag"><a href={`/tags/${tag}`}>{tag}</a></Button>
+        <p class="tag"></p>
+    ))}
+    </Group>
+</Section>

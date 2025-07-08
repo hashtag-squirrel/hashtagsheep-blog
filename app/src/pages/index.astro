@@ -1,14 +1,9 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
-import BlogPostLink from '../components/BlogPostLink.astro';
 import Hero1 from "fulldev-ui/blocks/Hero1.astro";
 import HighlightedPosts from '../components/HighlightedPosts.astro';
-import { getCollection } from "astro:content";
 
 const pageTitle = "Home";
-
-const allPosts = await getCollection("blog");
-const highlightedPosts = allPosts.filter((post: any) => post.data.tags.includes("highlight"))
 ---
     
 <BaseLayout pageTitle={pageTitle}>
@@ -19,7 +14,7 @@ const highlightedPosts = allPosts.filter((post: any) => post.data.tags.includes(
       image={{ src: '/images/hero.jpg' }}
     />
   </section>
-  <HighlightedPosts/>
+  <HighlightedPosts tag="highlight"/>
 
 </BaseLayout>
 

@@ -2,9 +2,10 @@
 title: "My First Blog Post"
 pubDate: 2025-06-11
 image:
+    visible: false
     url:
     alt:
-tags: ["woodworking", "blog", "highlight"]
+tags: ["woodworking", "all", "highlight"]
 ---
 
 # First Blog Post Title
