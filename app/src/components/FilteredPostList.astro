@@ -1,18 +1,15 @@
 ---
-import { getCollection } from 'astro:content';
+import SectionLayout from '../layouts/SectionLayout.astro';
 
-
-const { tag } = Astro.params;
 const { posts } = Astro.props;
 ---
 
-<section class="py-16 bg-gray-50">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
       {posts.map((post: any) => (
         <div class="bg-white shadow-md rounded-lg p-6 hover:shadow-xl transition-shadow duration-300">
             <a href={`/posts/${post.id}`}>
-            { post.data.image.visible ? <img
+            { post.data.image ? <img
                 src={post.data.image.url}
                 alt={post.data.image.alt}
                 class="w-full h-48 object-cover"
@@ -28,5 +25,3 @@ const { posts } = Astro.props;
       ))}
     </div>
   </div>
-
-</section>

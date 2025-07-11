@@ -4,6 +4,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import BlogPostLink from '../../components/BlogPostLink.astro';
 import TagButtons from '../../components/TagButtons.astro';
 import FilteredPostList from '../../components/FilteredPostList.astro';
+import SectionLayout from '../../layouts/SectionLayout.astro'
 
 export async function getStaticPaths() {
     const allPosts = await getCollection("blog");
@@ -24,12 +25,12 @@ const { posts } = Astro.props;
 
 ---
 <BaseLayout pageTitle={tag}>
+  <SectionLayout>
    <TagButtons />
        <div class="text-center mb-12">
-      <h2 class="text-3xl font-extrabold text-gray-900">Showing Posts tagged with {tag}</h2>
+      <h2 class="text-3xl font-extrabold text-gray-900">Showing Posts tagged with <em>{tag}</em></h2>
     </div>
-  <ul>
-    {posts.map((post: any) => <BlogPostLink url={`/posts/${post.id}/`} title={post.data.title} />)}
-  </ul>
+    <FilteredPostList posts={posts} />
 
+</SectionLayout>
 </BaseLayout>

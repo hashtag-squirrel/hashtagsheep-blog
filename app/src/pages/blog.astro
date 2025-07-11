@@ -2,17 +2,18 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import PostList from '../components/PostList.astro';
 import TagButtons from '../components/TagButtons.astro';
-import Heading from 'fulldev-ui/components/Heading.astro'
+import SectionLayout from '../layouts/SectionLayout.astro';
 
 const pageTitle = "Blog";
 ---
 
 <BaseLayout pageTitle={pageTitle}>
-
-  <Heading as="h1" text={pageTitle} />
-  <TagButtons />
-      <div class="text-center mb-12">
-      <h2 class="text-3xl font-extrabold text-gray-900">All Posts</h2>
+  <SectionLayout> 
+    <h1 class="text-3xl font-extrabold">{pageTitle}</h1>
+    <TagButtons />
+    <div class="text-center mb-12">
+      <h2 class="text-2xl font-bold">All Posts</h2>
     </div>
-<PostList />
+    <PostList />
+  </SectionLayout>
 </BaseLayout>

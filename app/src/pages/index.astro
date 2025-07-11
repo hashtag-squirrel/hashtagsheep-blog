@@ -1,20 +1,27 @@
 ---
+import { getCollection } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import Hero1 from "fulldev-ui/blocks/Hero1.astro";
-import HighlightedPosts from '../components/HighlightedPosts.astro';
+import FilteredPostList from '../components/FilteredPostList.astro';
+import SectionLayout from '../layouts/SectionLayout.astro';
+
+const allPosts = await getCollection("blog");
+const highlightedPosts = allPosts.filter((post: any) => post.data.tags.includes("highlight"))
 
 const pageTitle = "Home";
 ---
     
 <BaseLayout pageTitle={pageTitle}>
-  <section>
     <Hero1
       heading="Hashtagsheep"
       paragraph="Welcome to my blog about my woodworking and other crafting endeavours"
       image={{ src: '/images/hero.jpg' }}
     />
-  </section>
-  <HighlightedPosts tag="highlight"/>
-
+  <SectionLayout>
+    <div class="text-center mb-12">
+      <h2 class="text-2xl font-extrabold">Featured Posts</h2>
+    </div>
+  <FilteredPostList posts={highlightedPosts}/>
+ </SectionLayout>
 </BaseLayout>
 
