@@ -6,6 +6,8 @@
 --periwinkle: #CCCAE6ff;
 --caf-noir: #47301Aff;
 --raw-umber: #8A603Aff;
+--primary: 244 36% 85%;
+--primary-foreground: 249 28% 37%;
 
 /* CSS HSL */
 --ultra-violet: hsla(249, 28%, 37%, 1);

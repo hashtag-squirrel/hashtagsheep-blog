@@ -26,11 +26,11 @@ const { posts } = Astro.props;
 ---
 <BaseLayout pageTitle={tag}>
   <SectionLayout>
+    <h1 class="text-3xl font-extrabold">Blog</h1>
    <TagButtons />
-       <div class="text-center mb-12">
-      <h2 class="text-3xl font-extrabold text-gray-900">Showing Posts tagged with <em>{tag}</em></h2>
+    <div class="text-center mb-12">
+    <h2 class="text-2xl font-bold text-gray-900">Showing Posts tagged with <em>{tag}</em></h2>
     </div>
     <FilteredPostList posts={posts} />
-
 </SectionLayout>
 </BaseLayout>

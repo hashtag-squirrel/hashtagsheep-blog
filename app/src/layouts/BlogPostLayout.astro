@@ -1,32 +1,31 @@
 ---
 import BaseLayout from './BaseLayout.astro';
-import Button from 'fulldev-ui/components/Button.astro'
-import SectionLayout from './SectionLayout.astro';
+import Button from 'fulldev-ui/components/Button.astro';
+import Content1 from 'fulldev-ui/blocks/Content1.astro';
 
 const { frontmatter } = Astro.props;
 ---
+
 <BaseLayout pageTitle={frontmatter.title}>
-    
-    <SectionLayout>
-    <p>{frontmatter.pubDate.toLocaleDateString()}</p>
-    { frontmatter.image ? <img
-                src={frontmatter.image.url}
-                alt={frontmatter.image.alt}
-                class="w-full h-72 object-cover"
-            /> : <img
-                src="/images/hero.jpg"
-                class="w-full h-72 object-cover"
-            /> }
-    <h1 class="text-3xl font-extrabold">{frontmatter.title}</h1>
-    </SectionLayout>
-    <SectionLayout> <slot /></SectionLayout>
-   
-    <SectionLayout>
-    <div class="tags">
-        {frontmatter.tags.map((tag: string) => (
-            <Button class="tag" href={`/tags/${tag}`}>{tag}</Button>
-        ))}
-    </div>
-    
-    </SectionLayout>
+	<Content1
+		depth={1}
+		tagline={frontmatter.pubDate.toLocaleDateString()}
+		heading={frontmatter.title}
+		image={{
+			src: frontmatter.image?.url || '/images/hs-logo.png',
+			class: 'h-[400px] object-cover',
+			alt: frontmatter.image?.alt || frontmatter.title,
+		}}
+		content=""
+	>
+		<slot />
+		<Button class="tag" href={`/blog`}>All</Button>
+		{
+			frontmatter.tags.map((tag: string) => (
+				<Button class="tag" href={`/tags/${tag}`}>
+					{tag}
+				</Button>
+			))
+		}
+	</Content1>
 </BaseLayout>
