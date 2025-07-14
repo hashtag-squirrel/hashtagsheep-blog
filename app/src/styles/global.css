@@ -17,39 +17,41 @@
 --raw-umber: hsla(29, 41%, 38%, 1);
 }
 
-
-/* nav styles */
-
-.hamburger {
-  padding-right: 20px;
-  cursor: pointer;
+/* Global font settings */
+@font-face {
+  font-family: 'OpenRunde';
+  src: url('/fonts/OpenRunde-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
-.hamburger .line {
-  display: block;
-  width: 40px;
-  height: 5px;
-  margin-bottom: 10px;
-  background-color: #ff9776;
+body {
+  font-family: 'OpenRunde', 'Helvetica', sans-serif !important;
 }
 
-.nav-links {
-  display: none;
+p a, li a {
+  color: var(--ultra-violet);
 }
 
-.expanded {
-  display: unset;
-}
+/* Footer customization */
 
-@media screen and (min-width: 636px) {
-  .nav-links {
-    display: block;
-    position: static;
-    width: auto;
-    background: none;
-  }
-
-      .hamburger {
-    display: none;
+@media screen and (min-width: 636px){
+.footer .menu {
+    align-items: flex-end;
   }
 }
+
+/* List item styles */
+li {
+    margin-left: 20px;
+    list-style-type: disc;
+ }
+
+ .menu li {
+  list-style-type: none;
+ }
+
+ .prose.align-middle {
+  max-width: 1024px !important;
+ }

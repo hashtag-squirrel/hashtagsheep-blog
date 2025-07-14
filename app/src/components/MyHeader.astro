@@ -1,6 +1,5 @@
 ---
 import Header from 'fulldev-ui/blocks/Header.astro'
-import Hamburger from './Hamburger.astro'
 ---
 
 <Header
@@ -18,5 +17,13 @@ import Hamburger from './Hamburger.astro'
       href: '/general/contact.md',
     },
   ]}
+  menus={[
+    {
+      heading: 'Hashtagsheep Blog',
+      links: [
+        { text: 'Blog', href: '/blog' },
+        { text: 'Contact', href: '/general/contact.md' }
+      ],
+    }
+  ]}
 />
-<Hamburger/>
