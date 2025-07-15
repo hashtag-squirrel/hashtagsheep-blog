@@ -1,20 +1,20 @@
 /* colors */
 /* CSS HEX */
 :root {
---ultra-violet: #4B4378ff;
---ash-gray: #AFB3ADff;
---periwinkle: #CCCAE6ff;
---caf-noir: #47301Aff;
---raw-umber: #8A603Aff;
---primary: 244 36% 85%;
---primary-foreground: 249 28% 37%;
+  --ultra-violet: #4B4378ff;
+  --ash-gray: #AFB3ADff;
+  --periwinkle: #CCCAE6ff;
+  --caf-noir: #47301Aff;
+  --raw-umber: #8A603Aff;
+  --primary: 244 36% 85%;
+  --primary-foreground: 249 28% 37%;
 
-/* CSS HSL */
---ultra-violet: hsla(249, 28%, 37%, 1);
---ash-gray: hsla(100, 4%, 69%, 1);
---periwinkle: hsla(244, 36%, 85%, 1);
---caf-noir: hsla(29, 46%, 19%, 1);
---raw-umber: hsla(29, 41%, 38%, 1);
+  /* CSS HSL */
+  --ultra-violet: hsla(249, 28%, 37%, 1);
+  --ash-gray: hsla(100, 4%, 69%, 1);
+  --periwinkle: hsla(244, 36%, 85%, 1);
+  --caf-noir: hsla(29, 46%, 19%, 1);
+  --raw-umber: hsla(29, 41%, 38%, 1);
 }
 
 /* Global font settings */
@@ -30,28 +30,30 @@ body {
   font-family: 'OpenRunde', 'Helvetica', sans-serif !important;
 }
 
-p a, li a {
+p a,
+li a {
   color: var(--ultra-violet);
 }
 
 /* Footer customization */
 
-@media screen and (min-width: 636px){
-.footer .menu {
+@media screen and (min-width: 636px) {
+  .footer .menu {
     align-items: flex-end;
   }
 }
 
 /* List item styles */
 li {
-    margin-left: 20px;
-    list-style-type: disc;
- }
+  margin-left: 20px;
+  list-style-type: disc;
+}
 
- .menu li {
+.menu li {
+  margin-left: 0;
   list-style-type: none;
- }
+}
 
- .prose.align-middle {
+.prose.align-middle {
   max-width: 1024px !important;
- }
+}
