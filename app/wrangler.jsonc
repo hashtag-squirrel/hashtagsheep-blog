@@ -3,23 +3,28 @@
 	"name": "hashtagsheep-blog",
 	"routes": [
 		{
-			"pattern": "hashtagsheep.com/*",
+			"pattern": "hashtagsheep.com",
 			"custom_domain": true
 		}
 	],
 	"env": {
 		"dev": {
-			"route": "dev.hashtagsheep.com/*"
+			"routes": [
+				{
+					"pattern": "dev.hashtagsheep.com",
+					"custom_domain": true
+				}
+			],
 		}
 	},
-"compatibility_date": "2025-06-06",
-"observability": {
-	"enabled": true
-},
-"assets": {
-	"directory": "./dist"
-},
-"placement": {
-	"mode": "smart"
-},
+	"compatibility_date": "2025-06-06",
+	"observability": {
+		"enabled": true
+	},
+	"assets": {
+		"directory": "./dist"
+	},
+	"placement": {
+		"mode": "smart"
+	},
 }
