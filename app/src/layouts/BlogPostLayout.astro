@@ -1,14 +1,31 @@
 ---
 import BaseLayout from './BaseLayout.astro';
+import Button from 'fulldev-ui/components/Button.astro';
+import Content1 from 'fulldev-ui/blocks/Content1.astro';
 
 const { frontmatter } = Astro.props;
 ---
+
 <BaseLayout pageTitle={frontmatter.title}>
-    <p>{frontmatter.pubDate.toLocaleDateString()}</p>
-    <slot />
-    <div class="tags">
-        {frontmatter.tags.map((tag: string) => (
-            <p class="tag"><a href={`/tags/${tag}`}>{tag}</a></p>
-        ))}
-    </div>
+	<Content1
+		depth={1}
+		tagline={frontmatter.pubDate.toLocaleDateString()}
+		heading={frontmatter.title}
+		image={{
+			src: frontmatter.image?.url || '/images/hs-logo.png',
+			class: 'h-[400px] object-cover',
+			alt: frontmatter.image?.alt || frontmatter.title,
+		}}
+		content=""
+	>
+		<slot />
+		<Button class="tag" href={`/blog`}>All</Button>
+		{
+			frontmatter.tags.map((tag: string) => (
+				<Button class="tag" href={`/tags/${tag}`}>
+					{tag}
+				</Button>
+			))
+		}
+	</Content1>
 </BaseLayout>

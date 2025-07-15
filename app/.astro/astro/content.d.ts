@@ -1,5 +1,27 @@
 declare module 'astro:content' {
-	export interface RenderResult {
+	interface Render {
+		'.mdx': Promise<{
+			Content: import('astro').MarkdownInstance<{}>['Content'];
+			headings: import('astro').MarkdownHeading[];
+			remarkPluginFrontmatter: Record<string, any>;
+			components: import('astro').MDXInstance<{}>['components'];
+		}>;
+	}
+}
+
+declare module 'astro:content' {
+	interface Render {
+		'.mdx': Promise<{
+			Content: import('astro').MarkdownInstance<{}>['Content'];
+			headings: import('astro').MarkdownHeading[];
+			remarkPluginFrontmatter: Record<string, any>;
+			components: import('astro').MDXInstance<{}>['components'];
+		}>;
+	}
+}
+
+declare module 'astro:content' {
+	interface RenderResult {
 		Content: import('astro/runtime/server/index.js').AstroComponentFactory;
 		headings: import('astro').MarkdownHeading[];
 		remarkPluginFrontmatter: Record<string, any>;
@@ -31,21 +53,6 @@ declare module 'astro:content' {
 		ContentEntryMap[C]
 	>['slug'];
 
-	export type ReferenceDataEntry<
-		C extends CollectionKey,
-		E extends keyof DataEntryMap[C] = string,
-	> = {
-		collection: C;
-		id: E;
-	};
-	export type ReferenceContentEntry<
-		C extends keyof ContentEntryMap,
-		E extends ValidContentEntrySlug<C> | (string & {}) = string,
-	> = {
-		collection: C;
-		slug: E;
-	};
-
 	/** @deprecated Use `getEntry` instead. */
 	export function getEntryBySlug<
 		C extends keyof ContentEntryMap,
@@ -76,17 +83,19 @@ declare module 'astro:content' {
 	export function getEntry<
 		C extends keyof ContentEntryMap,
 		E extends ValidContentEntrySlug<C> | (string & {}),
-	>(
-		entry: ReferenceContentEntry<C, E>,
-	): E extends ValidContentEntrySlug<C>
+	>(entry: {
+		collection: C;
+		slug: E;
+	}): E extends ValidContentEntrySlug<C>
 		? Promise<CollectionEntry<C>>
 		: Promise<CollectionEntry<C> | undefined>;
 	export function getEntry<
 		C extends keyof DataEntryMap,
 		E extends keyof DataEntryMap[C] | (string & {}),
-	>(
-		entry: ReferenceDataEntry<C, E>,
-	): E extends keyof DataEntryMap[C]
+	>(entry: {
+		collection: C;
+		id: E;
+	}): E extends keyof DataEntryMap[C]
 		? Promise<DataEntryMap[C][E]>
 		: Promise<CollectionEntry<C> | undefined>;
 	export function getEntry<
@@ -105,17 +114,21 @@ declare module 'astro:content' {
 		collection: C,
 		id: E,
 	): E extends keyof DataEntryMap[C]
-		? string extends keyof DataEntryMap[C]
-			? Promise<DataEntryMap[C][E]> | undefined
-			: Promise<DataEntryMap[C][E]>
+		? Promise<DataEntryMap[C][E]>
 		: Promise<CollectionEntry<C> | undefined>;
 
 	/** Resolve an array of entry references from the same collection */
 	export function getEntries<C extends keyof ContentEntryMap>(
-		entries: ReferenceContentEntry<C, ValidContentEntrySlug<C>>[],
+		entries: {
+			collection: C;
+			slug: ValidContentEntrySlug<C>;
+		}[],
 	): Promise<CollectionEntry<C>[]>;
 	export function getEntries<C extends keyof DataEntryMap>(
-		entries: ReferenceDataEntry<C, keyof DataEntryMap[C]>[],
+		entries: {
+			collection: C;
+			id: keyof DataEntryMap[C];
+		}[],
 	): Promise<CollectionEntry<C>[]>;
 
 	export function render<C extends keyof AnyEntryMap>(
@@ -127,8 +140,14 @@ declare module 'astro:content' {
 	): import('astro/zod').ZodEffects<
 		import('astro/zod').ZodString,
 		C extends keyof ContentEntryMap
-			? ReferenceContentEntry<C, ValidContentEntrySlug<C>>
-			: ReferenceDataEntry<C, keyof DataEntryMap[C]>
+			? {
+					collection: C;
+					slug: ValidContentEntrySlug<C>;
+				}
+			: {
+					collection: C;
+					id: keyof DataEntryMap[C];
+				}
 	>;
 	// Allow generic `string` to avoid excessive type errors in the config
 	// if `dev` is not running to update as you edit.
@@ -143,22 +162,39 @@ declare module 'astro:content' {
 	>;
 
 	type ContentEntryMap = {
-		
+		"blog": {
+"first-post.md": {
+	id: "first-post.md";
+  slug: "first-post";
+  body: string;
+  collection: "blog";
+  data: any
+} & { render(): Render[".md"] };
+"second-post.md": {
+	id: "second-post.md";
+  slug: "second-post";
+  body: string;
+  collection: "blog";
+  data: any
+} & { render(): Render[".md"] };
+};
+"pages": {
+"contact.md": {
+	id: "contact.md";
+  slug: "contact";
+  body: string;
+  collection: "pages";
+  data: any
+} & { render(): Render[".md"] };
+};
+
 	};
 
 	type DataEntryMap = {
-		"blog": Record<string, {
-  id: string;
-  body?: string;
-  collection: "blog";
-  data: InferEntrySchema<"blog">;
-  rendered?: RenderedContent;
-  filePath?: string;
-}>;
-
+		
 	};
 
 	type AnyEntryMap = ContentEntryMap & DataEntryMap;
 
-	export type ContentConfig = typeof import("./../src/content.config.js");
+	export type ContentConfig = never;
 }

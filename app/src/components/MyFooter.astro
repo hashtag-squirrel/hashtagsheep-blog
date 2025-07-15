@@ -1,0 +1,25 @@
+---
+import Footer from './FullDevCustomized/Footer.astro'
+---
+
+<Footer 
+  logo={{
+    text: "Follow me on"
+  }}
+  menus={[
+    {
+      heading: '',
+      links: [
+        { href: '/#/', text: 'Legal Link 1' },
+        { href: '/#/', text: 'Legal Link 2' },
+        { href: '/#/', text: 'Legal Link 3' },
+      ],
+    }
+  ]}
+  paragraph=`© 2025 hashtagsheep. Some rights reserved.<br>Content on this site is licensed under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> unless otherwise stated.`
+  socials={[
+      {icon:"box", href:"https://makerworld.com/en/@hashtagsheep"},
+      "https://www.instagram.com/hashtagsheep/",
+      "https://www.facebook.com/profile.php?id=61576148252503"
+    ]}
+/>

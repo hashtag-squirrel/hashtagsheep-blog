@@ -1,0 +1,29 @@
+---
+import Header from 'fulldev-ui/blocks/Header.astro'
+---
+
+<Header
+  logo={{
+    image: { src: '/images/hs-logo.png' },
+    text: 'Hashtagsheep Blog',
+  }}
+  links={[
+    {
+      text: 'Blog',
+      href: '/blog',
+    },
+    {
+      text: 'Contact',
+      href: '/general/contact.md',
+    },
+  ]}
+  menus={[
+    {
+      heading: 'Hashtagsheep Blog',
+      links: [
+        { text: 'Blog', href: '/blog' },
+        { text: 'Contact', href: '/general/contact.md' }
+      ],
+    }
+  ]}
+/>
