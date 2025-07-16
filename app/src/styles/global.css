@@ -30,9 +30,14 @@ body {
   font-family: 'OpenRunde', 'Helvetica', sans-serif !important;
 }
 
+/* Link styles */
 p a,
 li a {
   color: var(--ultra-violet);
+}
+
+.content-1 a {
+  
 }
 
 /* Footer customization */
@@ -56,4 +61,14 @@ li {
 
 .prose.align-middle {
   max-width: 1024px !important;
+}
+
+/* Table styles */
+th, td {
+  padding: 10px;
+}
+
+th {
+  text-wrap: nowrap;
+  border-bottom: 2px solid;
 }

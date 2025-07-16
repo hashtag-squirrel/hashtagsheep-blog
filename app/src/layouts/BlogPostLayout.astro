@@ -1,7 +1,7 @@
 ---
 import BaseLayout from './BaseLayout.astro';
 import Button from 'fulldev-ui/components/Button.astro';
-import Content1 from 'fulldev-ui/blocks/Content1.astro';
+import Content1 from '../components/FullDevCustomized/Content1.astro';
 
 const { frontmatter } = Astro.props;
 ---
@@ -16,7 +16,7 @@ const { frontmatter } = Astro.props;
 			class: 'h-[400px] object-cover',
 			alt: frontmatter.image?.alt || frontmatter.title,
 		}}
-		content=""
+		paragraph={frontmatter.title}
 	>
 		<slot />
 		<Button class="tag" href={`/blog`}>All</Button>
