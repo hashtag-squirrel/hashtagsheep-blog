@@ -12,11 +12,14 @@ const { frontmatter } = Astro.props;
 		tagline={frontmatter.pubDate.toLocaleDateString()}
 		heading={frontmatter.title}
 		image={{
-			src: frontmatter.image?.url || '/images/hs-logo.png',
+			src: frontmatter.image?.url || '/images/default.webp',
 			class: 'h-[400px] object-cover',
-			alt: frontmatter.image?.alt || frontmatter.title,
+			alt: frontmatter.image?.alt || 'A crosscut of a woodslab',
 		}}
-		
+		link={{
+			text: frontmatter.image?.from || 'blublub',
+			href: frontmatter.image?.fromLink || 'https://www.google.com',
+		}}
 	>
 		<slot />
 		<Button class="tag" href={`/blog`}>All</Button>

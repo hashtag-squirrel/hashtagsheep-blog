@@ -6,16 +6,16 @@ import FilteredPostList from '../components/FilteredPostList.astro';
 import SectionLayout from '../layouts/SectionLayout.astro';
 
 const allPosts = await getCollection('blog');
-const highlightedPosts = allPosts.filter((post: any) => post.data.tags.includes('highlight'));
+const highlightedPosts = allPosts.filter((post: any) => post.data.tags.includes('featured'));
 
 const pageTitle = 'Home';
 ---
 
 <BaseLayout pageTitle={pageTitle}>
 	<Hero1
-		heading="Hashtagsheep"
-		paragraph="Welcome to my blog about my woodworking and other crafting endeavours"
-		image={{ src: '/images/hero.jpg' }}
+		heading="Sawdust. Molten plastic. Questionable decisions."
+		paragraph="A blog about woodworking, 3D printing, and the joy of making stuff, plus the occasional sheep pun."
+		image={{ src: '/images/hero.webp' }}
 	/>
 	<SectionLayout>
 		<div class="text-center mb-12">

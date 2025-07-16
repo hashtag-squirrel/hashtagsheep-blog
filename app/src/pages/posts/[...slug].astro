@@ -1,6 +1,8 @@
 ---
 import { getCollection, render } from 'astro:content';
 import BlogPostLayout from '../../layouts/BlogPostLayout.astro';
+import Paragraph from 'fulldev-ui/components/Paragraph.astro'
+import Banner from 'fulldev-ui/blocks/Banner.astro'
 
 export async function getStaticPaths() {
 	const posts = await getCollection('blog');
@@ -16,4 +18,11 @@ const { Content } = await render(post);
 
 <BlogPostLayout frontmatter={post.data}>
 	<Content />
+	<hr>
+	<Paragraph>I hope you enjoyed the read, and if not, that's fine too! Feel free to share your thoughts or reach out on 
+		<a href="https://www.instagram.com/hashtagsheep/">Instagram</a> or <a href="https://www.facebook.com/profile.php?id=61576148252503">Facebook</a>.
+		 I'm always happy to hear feedback: good, bad, or sheep-themed.</Paragraph>
+	{post.data.sponsorDisclaimer ? 
+		<Banner text="This post isn't sponsored, and no one slipped me tools or money. Everything mentioned was bought with my own money, and all opinions are entirely my own (sheep-approved)."/>
+		 : null }
 </BlogPostLayout>

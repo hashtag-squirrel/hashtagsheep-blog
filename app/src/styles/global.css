@@ -31,13 +31,12 @@ body {
 }
 
 /* Link styles */
-p a,
-li a {
+a {
   color: var(--ultra-violet);
 }
 
-.content-1 a {
-  
+.header a {
+  color: black;
 }
 
 /* Footer customization */

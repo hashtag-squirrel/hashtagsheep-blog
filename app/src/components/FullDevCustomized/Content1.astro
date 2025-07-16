@@ -27,16 +27,19 @@ const { depth, tagline, heading, paragraph, buttons, image, content, link } =
         {depth}
       />
       <Image {...image} />
-        <Link
-          size="sm"
-          variant="muted"
-          {...link}
-        />
-    <Paragraph
-        muted
-        size="sm"
-        text={paragraph}
-      />
+      <div class="w-full flex justify-end mb-10">
+        <Group>
+          <Paragraph
+            muted
+            text="Image from:"
+          />
+          <Link
+            class="mr-2"
+            target="_blank"
+            {...link}
+          />
+        </Group>
+      </div>
       <Fragment set:html={content} />
       <slot />
       <Group>

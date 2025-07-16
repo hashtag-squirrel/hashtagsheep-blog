@@ -10,13 +10,13 @@ const { frontmatter } = Astro.props;
 		depth={1}
 		heading={frontmatter.title}
 		image={{
-			src: '/images/hs-logo.png',
-			class: 'h-[100px] object-cover',
-			alt: frontmatter.image?.alt || frontmatter.title,
+			src: frontmatter.image?.url || '/images/default.webp',
+			class: 'h-[200px] object-cover',
+			alt: frontmatter.image?.alt || 'A crosscut of a woodslab',
 		}}
 		link={{
-			text: frontmatter.title,
-			href: frontmatter.title,
+			text: frontmatter.image?.from || 'blublub',
+			href: frontmatter.image?.fromLink || 'https://www.google.com',
 		}}
 	>
 		<slot />
