@@ -16,7 +16,7 @@ const { frontmatter } = Astro.props;
 			class: 'h-[400px] object-cover',
 			alt: frontmatter.image?.alt || frontmatter.title,
 		}}
-		paragraph={frontmatter.title}
+		
 	>
 		<slot />
 		<Button class="tag" href={`/blog`}>All</Button>
