@@ -7,7 +7,7 @@ import Banner from 'fulldev-ui/blocks/Banner.astro'
 export async function getStaticPaths() {
 	const posts = await getCollection('blog');
 	return posts.map((post) => ({
-		params: { slug: post.id },
+		params: { slug: post.slug },
 		props: { post },
 	}));
 }

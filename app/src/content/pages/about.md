@@ -1,5 +1,6 @@
 ---
 title: "About"
+slug: "about"
 ---
 
 Hello there! I'm Christoph, the person behind hashtagsheep.

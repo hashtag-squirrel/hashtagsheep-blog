@@ -63,6 +63,13 @@ li {
 }
 
 /* Table styles */
+
+@media screen and (max-width: 636px) {
+  .bigtable {
+    overflow-x: auto;
+  }
+}
+
 th, td {
   padding: 10px;
 }

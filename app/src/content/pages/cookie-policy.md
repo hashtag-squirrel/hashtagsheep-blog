@@ -12,9 +12,14 @@ Cookies are small text files stored on your device by your browser when you visi
 
 The table below summarizes the types of cookies and tracking technologies that may be used on this site:
 
+<!-- markdownlint-disable-next-line -->
+<div class="bigtable">
+
 | Type | Name | Purpose | Source | Consent required |
 |:---|:---|:---|:---|:---|
 | Essential | `cf_clearance`| Stores proof that a user has passed Cloudflare's security challenge (e.g., CAPTCHA or JavaScript test). Enables continued access to the website without re-challenging. | Cloudflare | No |
+
+</div>
 
 **Cookie type descriptions:**
 
