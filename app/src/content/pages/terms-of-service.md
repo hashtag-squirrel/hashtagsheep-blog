@@ -38,7 +38,7 @@ These terms may be updated at any time without prior notice. Continued use of th
 
 ## 7. Contact
 
-For any questions about these terms or licensing inquiries, please [send an email](mailto:admin@hashtagsheep.com).
+For any questions about these terms or licensing inquiries, please [send an email](admin@hashtagsheep.com).
 
 ---
 
