@@ -32,7 +32,7 @@ The anonymized usage data collected via Cloudflare is used solely for the purpos
 ## 5. Contact
 
 If you have any questions about this policy, you can contact the site owner at:
-`admin@hashtagsheep.com`
+[admin@hashtagsheep.com](mailto:admin@hashtagsheep.com)
 
 ---
 Last updated: 2025-07-08

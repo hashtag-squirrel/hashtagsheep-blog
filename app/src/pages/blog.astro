@@ -1,8 +1,12 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
-import PostList from '../components/PostList.astro';
 import TagButtons from '../components/TagButtons.astro';
 import Content1 from 'fulldev-ui/blocks/Content1.astro';
+import { getCollection } from 'astro:content';
+import PostList from '../components/PostList.astro';
+
+const allPosts = await getCollection("blog");
+allPosts.sort((a, b) => Date.parse(b.data.pubDate) - Date.parse(a.data.pubDate));
 
 const pageTitle = 'Blog';
 ---
@@ -14,6 +18,6 @@ const pageTitle = 'Blog';
 		<div class="text-center mb-12">
 			<h2 class="text-2xl font-bold">All Posts</h2>
 		</div>
-		<PostList />
+		<PostList posts={allPosts} />
 	</Content1>
 </BaseLayout>

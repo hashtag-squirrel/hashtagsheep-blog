@@ -1,16 +1,13 @@
 ---
-import { getCollection } from 'astro:content';
-
-const allPosts = await getCollection("blog");
+const { posts } = Astro.props;
 ---
 
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-      {allPosts.map((post: any) => (
+      {posts.map((post: any) => (
         <div class="bg-white shadow-md rounded-lg p-6 hover:shadow-xl transition-shadow duration-300">
             <a href={`/posts/${post.id}`}>
-            <img
+              <img
                 src={post.data.image?.url ? post.data.image.url : "/images/default.webp" }
                 alt={post.data.image?.alt ? post.data.image.alt : 'A crosscut of a woodslab'}
                 class="w-full h-48 object-cover"
