@@ -17,8 +17,8 @@ const { frontmatter } = Astro.props;
 			alt: frontmatter.image?.alt || 'A crosscut of a woodslab',
 		}}
 		link={{
-			text: frontmatter.image?.from || 'FWStudio',
-			href: frontmatter.image?.fromLink || 'https://www.pexels.com/@fwstudio-33348/',
+			text: frontmatter.image?.attributionText || 'FWStudio',
+			href: frontmatter.image?.attributionLink || 'https://www.pexels.com/@fwstudio-33348/',
 		}}
 	>
 		<slot />
