@@ -1,16 +1,25 @@
 ---
 import BaseLayout from './BaseLayout.astro';
-import Content1 from 'fulldev-ui/blocks/Content1.astro';
+import Content1 from '../components/FullDevCustomized/Content1.astro';
 
 const { frontmatter } = Astro.props;
 ---
 
 <BaseLayout pageTitle={frontmatter.title}>
-	<Content1 depth={1} heading={frontmatter.title} content=""image={{
-			src: '/images/hs-logo.png',
-			class: 'h-[100px] object-cover',
-			alt: frontmatter.image?.alt || frontmatter.title,
-		}}>
+	<Content1
+		depth={1}
+		heading={frontmatter.title}
+		image={{
+			src: frontmatter.image?.url || '/images/default.webp',
+			class: 'h-[200px] object-cover',
+			alt: frontmatter.image?.alt || 'A crosscut of a woodslab',
+			loading: 'eager'
+		}}
+		link={{
+			text: frontmatter.image?.attributionText || 'FWStudio',
+			href: frontmatter.image?.attributionLink || 'https://www.pexels.com/@fwstudio-33348/',
+		}}
+	>
 		<slot />
 	</Content1>
 </BaseLayout>

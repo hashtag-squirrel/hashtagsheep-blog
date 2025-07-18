@@ -9,17 +9,18 @@ const {pageTitle} = Astro.props;
 <html lang="en">
 	<head>
 		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta content="text/html" http-equiv="Content-Type"/>
+		<link rel="icon" href="/images/favicon/favicon.ico" sizes="any" />
+		<link rel="apple-touch-icon" href="/images/favicon/apple-touch-icon.png" />
+		<link rel="manifest" href="/images/favicon/site.webmanifest" />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
+		<meta name="description" content="A blog about woodworking, 3D printing, and the joy of making stuff">
 		<title>{pageTitle}</title>
 	</head>
 	<body>
 		<Header />
         <slot />
 		<Footer />
-
-        <script>import "../scripts/menu.js";</script>
-	
 	</body>
 </html>

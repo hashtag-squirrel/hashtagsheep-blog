@@ -30,9 +30,13 @@ body {
   font-family: 'OpenRunde', 'Helvetica', sans-serif !important;
 }
 
-p a,
-li a {
-  color: var(--ultra-violet);
+/* Link styles */
+a:not(.button) {
+  color: var(--raw-umber);
+}
+
+.header a {
+  color: black;
 }
 
 /* Footer customization */
@@ -56,4 +60,21 @@ li {
 
 .prose.align-middle {
   max-width: 1024px !important;
+}
+
+/* Table styles */
+
+@media screen and (max-width: 636px) {
+  .bigtable {
+    overflow-x: auto;
+  }
+}
+
+th, td {
+  padding: 10px;
+}
+
+th {
+  text-wrap: nowrap;
+  border-bottom: 2px solid;
 }
