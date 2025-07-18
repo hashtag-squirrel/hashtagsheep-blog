@@ -15,6 +15,7 @@ const { frontmatter } = Astro.props;
 			src: frontmatter.image?.url || '/images/default.webp',
 			class: 'h-[400px] object-cover',
 			alt: frontmatter.image?.alt || 'A crosscut of a woodslab',
+			loading: 'eager'
 		}}
 		link={{
 			text: frontmatter.image?.attributionText || 'FWStudio',
