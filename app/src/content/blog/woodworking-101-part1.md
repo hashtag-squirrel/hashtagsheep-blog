@@ -2,10 +2,10 @@
 title: "Woodworking 101 - Part 1 - Getting powered up"
 pubDate: 2025-07-16
 image:
-    url:
-    alt:
-    attributionText:
-    attributionLink:
+    url: "/images/cover/tools-wall.webp"
+    alt: "A workshop wall full of power tools"
+    attributionText: "hashtagsheep"
+    attributionLink: "www.hashtagsheep.com"
 categories: ["Woodworking", "Tip"]
 tags: ["featured"]
 sponsorDisclaimer: true

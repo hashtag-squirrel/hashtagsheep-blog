@@ -2,7 +2,7 @@
 title: "The sheep has landed"
 pubDate: 2025-07-15
 image:
-    url: "/images/sheep.webp"
+    url: "/images/cover/sheep.webp"
     alt: "A silhouette of a sheep in front of a sunset"
     attributionText: "reetdachfan"
     attributionLink: "https://pixabay.com/users/reetdachfan-4934/"

@@ -31,8 +31,8 @@ body {
 }
 
 /* Link styles */
-a {
-  color: var(--ultra-violet);
+a:not(.button) {
+  color: var(--raw-umber);
 }
 
 .header a {

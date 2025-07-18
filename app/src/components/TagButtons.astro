@@ -12,7 +12,7 @@ const categories = [...new Set(allPosts.map((post: any) => post.data.categories)
 <Group>
     <Button class="category" href={`/blog`}>All</Button>
     {categories.map((category) => (
-        <Button class="category" href={`/categories/${category}`}>{category}</Button>
+        <Button class="category" href={`/blog/${category}`}>{category}</Button>
     ))}
     </Group>
 </Section>  

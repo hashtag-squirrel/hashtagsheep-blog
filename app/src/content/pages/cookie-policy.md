@@ -40,8 +40,8 @@ This cookie policy may be updated from time to time. Check this page for the lat
 
 ## 5. Contact
 
-If you have questions about this policy or how cookies are used, contact:
-[admin@hashtagsheep.com](mailto:admin@hashtagsheep.com)
+If you have questions about this policy or how cookies are used, contact:  
+`admin[at]hashtagsheep[dot]com`
 
 ---
 Last updated: 2025-07-08

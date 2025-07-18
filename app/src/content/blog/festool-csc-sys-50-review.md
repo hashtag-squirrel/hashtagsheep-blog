@@ -2,10 +2,10 @@
 title: "Hands-on with the Festool CSC SYS 50"
 pubDate: 2025-07-17
 image:
-    url:
-    alt:
-    attributionText:
-    attributionLink:
+    url: "/images/cover/festool-csc-sys-50.webp"
+    alt: "A Festool table saw"
+    attributionText: "hashtagsheep"
+    attributionLink: "www.hashtagsheep.com"
 categories: ["Woodworking", "Review"]
 tags: ["featured", "festool"]
 sponsorDisclaimer: true

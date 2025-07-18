@@ -3,7 +3,7 @@ title: "Credits"
 ---
 
 This website relies on open source software, fonts, and resources.  
-When stock images are used, their credits are listed directly in the corresponding blog post.
+When stock images are used, their credits are either listed directly in the corresponding page or here.
 
 I'm grateful to the amazing creators and communities that make these tools available.  
 Below is a list of the key resources powering this site.
@@ -19,7 +19,7 @@ Below is a list of the key resources powering this site.
 ## Libraries & frameworks
 
 - **Astro** - [astro.build](https://astro.build/) (MIT License)
-- **Fulldev UI** - [github.com/fulldotdev](https://github.com/fulldotdev) (MIT License)
+- **Fulldev UI** - [ui.full.dev](https://ui.full.dev/) (MIT License)
 - **Tailwind CSS** - [tailwindcss.com](https://tailwindcss.com/) (MIT License)
 
 ## License notice

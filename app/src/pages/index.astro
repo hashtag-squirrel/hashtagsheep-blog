@@ -6,7 +6,7 @@ import PostList from '../components/PostList.astro';
 import SectionLayout from '../layouts/SectionLayout.astro';
 
 const allPosts = await getCollection('blog');
-allPosts.sort((a, b) => Date.parse(b.data.pubDate) - Date.parse(a.data.pubDate));
+allPosts.sort((a, b) => Date.parse(a.data.pubDate) - Date.parse(b.data.pubDate));
 const highlightedPosts = allPosts.filter((post: any) => post.data.tags.includes('featured'));
 
 const pageTitle = 'Home';
@@ -16,7 +16,7 @@ const pageTitle = 'Home';
 	<Hero1
 		heading="Sawdust. Molten plastic. Questionable decisions."
 		paragraph="A blog about woodworking, 3D printing, and the joy of making stuff, plus the occasional sheep pun."
-		image={{ src: '/images/hero.webp' }}
+		image={{ src: '/images/hero.webp', alt: 'A closeup of a drill drilling into a piece of wood with sawdust around it', loading: "eager" }}
 	/>
 	<SectionLayout>
 		<div class="text-center mb-12">
