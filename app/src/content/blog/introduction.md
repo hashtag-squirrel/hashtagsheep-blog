@@ -45,6 +45,6 @@ Simple answer: I like sheep. They're cuddly, clever, and the world could use mor
 
 The hashtag? A light-hearted jab at social media culture. I'm part of it like most people, but I enjoy poking a bit of fun too.
 
-## Closing words
+## Join the flock
 
-I hope this gives you a good first impression. I'll be posting regularly, sometimes on social media, sometimes just here. If you want to follow along, feel free to subscribe to my channels to stay in the loop.
+If you're into woodworking, making, or just enjoy following nerdy projects, feel free to stick around. You'll find me here on the blog, and on [Instagram](https://instagram.com/hashtagsheep), [Facebook](https://facebook.com/hashtagsheep) and [MakerWorld](https://makerworld.com/en/@hashtagsheep), too.
