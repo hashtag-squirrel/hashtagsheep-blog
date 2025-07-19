@@ -68,7 +68,7 @@ Time for some good old-fashioned spec sheet stuff. Don't worry, I'll share what 
 
 * **Power:** It's good, not amazing. I've cut 4.5 cm walnut without drama, but blade choice really matters. Keep it sharp and matched to the task.
 * **Cleaning:** The closed design makes it hard to access for cleaning. Dust collects in the case corners, and there's no easy way to get in deep. If you're as picky about cleaning as I am, this will bug you.
-* **Cutting capacity:** Expected for a saw this size. You'll need creative jigs or alternative soluations for large panels.
+* **Cutting capacity:** Expected for a saw this size. You'll need creative jigs or alternative solutions for large panels.
 
 ## The takeaway
 

@@ -49,7 +49,7 @@ Another reason I shop locally: I start a lot of projects on impulse (don't we al
 
 I like to think of it in four tiers: **regrettable, reliable, refined, and rock-solid.**
 
-Into the **regrettable** thir would go: in-house brands, not just hardware stores but also retail chains, there is also off-brand knockoffs and cheap imports. Some are decent, some are best avoided, and you won't know until it's too late. That's the harsh truth: buying from these brands is often a gamble. And if you start investing deeper into their ecosystem, you might find yourself regretting it later. Lesson learned: *buy cheap, buy twice.*
+Into the **regrettable** tier would go: in-house brands, not just hardware stores but also retail chains, there is also off-brand knockoffs and cheap imports. Some are decent, some are best avoided, and you won't know until it's too late. That's the harsh truth: buying from these brands is often a gamble. And if you start investing deeper into their ecosystem, you might find yourself regretting it later. Lesson learned: *buy cheap, buy twice.*
 
 If your budget is tight or you just want to test the waters, go for the **reliable** tier. Brands like **Ryobi** and **Einhell** offer a surprising amount of quality and a broad tool lineup. They're a great way to get started without burning through your wallet.
 
