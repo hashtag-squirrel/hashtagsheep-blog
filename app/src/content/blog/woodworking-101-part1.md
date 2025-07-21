@@ -13,9 +13,9 @@ sponsorDisclaimer: true
 
 Like every woodworking content creator, I also need one of *those* advice series where I explain what you should do when getting into woodworking. If you're already bored by that topic, I understand, and I won't be mad if you stop reading.
 
-While I'll give some advice on what tools to get and how you can start experimenting with your new hobby, I want to focus more on the things I learned when starting out that I *wish* I had heard from the sources I used back then.
+While I'll share some basic pointers on how to get started with your new hobby, I want to focus more on the things I learned when starting out that I *wish* I had heard from the sources I used back then.
 
-This first part addresses the elephant in the room and skips over the tiny stuff: the power tools, especially battery platforms. Cordless hand tools have become so good that I wouldn't recommend any corded version anymore (with a few exceptions that aren't relevant for beginners). Corded tools are still cheaper and get the job done, but you trade in a lot of comfort and ease of use. Most of my corded tools are leftovers from before I had a solid battery platform.
+This first part addresses the elephant in the room: the power tools, especially battery platforms. Cordless hand tools have become so good that I wouldn't recommend any corded version anymore (with a few exceptions that aren't relevant for beginners). Corded tools are still cheaper and get the job done, but you trade in a lot of comfort and ease of use. Most of my corded tools are leftovers from before I had a solid battery platform.
 
 So let's dive into the decision-making process:
 
@@ -31,7 +31,7 @@ As for 40V: that's for professionals with heavy-duty needs. If you ever need tha
 
 ## Team red, green, blue… and all the other colors?
 
-Now it gets interesting. Or confusing. Or both.
+Here's where things get interesting... and where you'll want to look beyond just the brand logos.
 
 The universal tip every woodworker will give: **look at the range of tools offered** on a platform. Most brands now cover everything from woodworking to gardening to jobsite espresso makers. Some even share batteries across different companies. Bosch DIY (Green) is a good example with the [Power for All Alliance](https://www.powerforall-alliance.com), which includes Gardena, Husqvarna, and others.
 
@@ -49,7 +49,7 @@ Another reason I shop locally: I start a lot of projects on impulse (don't we al
 
 I like to think of it in four tiers: **regrettable, reliable, refined, and rock-solid.**
 
-**"Regrettable"** might sound harsh, but here's what I mean: some hardware stores have their own tool brands. Some are decent, some are trash, and you won't know until it's too late. And once you're locked into that ecosystem, your options are limited. Lesson learned: *buy cheap, buy twice.*
+In the **regrettable** tier, you'll typically find in-house brands from hardware stores and retail chains, as well as off-brand knockoffs and cheap imports. Some are decent, some are best avoided, and you won't know until it's too late. That's the harsh truth: buying from these brands is often a gamble. And if you start investing deeper into their ecosystem, you might find yourself regretting it later. Lesson learned: *buy cheap, buy twice.*
 
 If your budget is tight or you just want to test the waters, go for the **reliable** tier. Brands like **Ryobi** and **Einhell** offer a surprising amount of quality and a broad tool lineup. They're a great way to get started without burning through your wallet.
 
@@ -63,7 +63,7 @@ Of course, there are many other brands out there, this list just reflects the on
 
 After all that info, here's what I landed on based on a lot of research, trial and error, and figuring out what actually suits my needs:
 
-* **Festool 18V** - These tools just work. Setup is fast, everything fits together, and the accessory game is strong. I'm a fan.
+* **Festool 18V** - These tools just work. Setup is fast, everything fits together, and the accessory game is strong. I might be a bit biased because I'm a fan, but once you start looking into it, you'll notice other creators often say the same.
 * **Makita 18V** - Great selection, solid quality, and excellent availability here in Sweden.
 * **Einhell 18V** - Perfect for tools that don't need to be premium, like glue guns or staplers. Also, they fill gaps other brands don't.
 
@@ -78,6 +78,4 @@ Also: check the second-hand market. Great deals are out there, and it's a low-ri
 
 And finally, whatever you buy, make sure you learn the basics of safety. Power tools are fun, but they've got bite.
 
----
-
-In part two, "Let's Go Shopping", I'll go over the kinds of tools I'd recommend buying when starting out: what you really need, what can wait, and what's just nice to have in your setup.
+In part two, **Let's go shopping**, I'll go over the workshop gear I'd recommend buying when starting out: what you really need, what can wait, and what's just nice to have in your setup.

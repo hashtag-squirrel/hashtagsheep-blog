@@ -52,10 +52,10 @@ Time for some good old-fashioned spec sheet stuff. Don't worry, I'll share what 
 ## The good
 
 * **Portability & storage:** Festool nailed the format. Everything fits into a standard Systainer, so you can stack it, stash it, or roll it out of the way. It was one of the key reasons I chose this saw.
-* **Precision:** The digital controls are surprisingly useful. Calibrate once, and then just dial in your angle or depth. No guesswork, no extra measuring tools.
-* **Sliding table:** A built-in crosscut sled, kind of. Makes cuts more accurate and safer, especially with the T-rail clamps.
+* **Precision:** The digital controls are surprisingly useful. Calibrate once, and then just dial in your angle or depth. No guesswork, no extra measuring tools. Battery status on-screen is a nice bonus.
+* **Sliding table:** A built-in crosscut sled, kind of. Makes cuts more accurate and safer, especially with the T-rail clamping options.
 * **Blade changes:** Quick and fuss-free, something I wish more saws got right.
-* **Bluetooth connectivity:** Not essential, but handy. Battery status on-screen is a nice bonus.
+* **Bluetooth connectivity:** Not essential, but surprisingly clever. Festool's system lets your cordless tools automatically trigger your shop vac, saving you a trip to the switch. You can also check your saw's status and adjust your blade presets (angle and height) directly in the app... handy features, even if they feel a bit over the top at first.
 * **Battery turnaround:** Swap and go. Runtime is more than enough for typical shop tasks. A dual charger is a must-have in my opinion, some packages include one, but if not, definitely consider it. You'll want fresh batteries ready at all times to keep the workflow smooth.
 
 ## The bad
@@ -67,8 +67,8 @@ Time for some good old-fashioned spec sheet stuff. Don't worry, I'll share what 
 ## The meh
 
 * **Power:** It's good, not amazing. I've cut 4.5 cm walnut without drama, but blade choice really matters. Keep it sharp and matched to the task.
-* **Cleaning:** The closed design makes it hard to access for cleaning. Dust collects in corners, and there's no easy way to get in deep. If you're as picky about cleaning as I am, this will bug you.
-* **Cutting capacity:** Expected for a saw this size. You'll need creative jigs or alternative tools for large panels.
+* **Cleaning:** The closed design makes it hard to access for cleaning. Dust collects in the case corners, and there's no easy way to get in deep. If you're as picky about cleaning as I am, this will bug you.
+* **Cutting capacity:** Expected for a saw this size. You'll need creative jigs or alternative solutions for large panels.
 
 ## The takeaway
 
@@ -84,16 +84,16 @@ If you want to check out the saw:
 Here are a few accessories that make the CSC SYS 50 even better, along with links to where you can check them out:
 
 * **Festool Underframe UG-CSC-SYS:** Turns the saw into a mobile and more ergonomic station. Solid upgrade.
-  [Festool Underframe - DE](https://www.festool.de/zubehoer/saegen/untergestelle-und-arbeitstische/untergestelle/577001---ug-csc-sys)
-  [Festool Underframe - USA](https://www.festoolusa.com/accessories/sawing/underframes-and-work-benches/underframes/577001---ug-csc-sys)
+  * [Festool Underframe - DE](https://www.festool.de/zubehoer/saegen/untergestelle-und-arbeitstische/untergestelle/577001---ug-csc-sys)
+  * [Festool Underframe - USA](https://www.festoolusa.com/accessories/sawing/underframes-and-work-benches/underframes/577001---ug-csc-sys)
 
 * **Bow Products Xtender:** Extends the fence for safer and more stable cuts. Bow also makes excellent featherboards and other clever workshop accessories.
-  [Bow Products](https://bow-products.com/product/portable-saw-featherboard/)
+  * [Bow Products](https://bow-products.com/product/portable-saw-featherboard/)
 
 * **Benchdogs Tools extensions:** They offer a full range of custom solutions designed specifically for the CSC SYS 50. I haven't added them to the shed yet, but they're definitely on my radar.
-  [Benchdogs Tools](https://benchdogs.co.uk/)
+  * [Benchdogs Tools](https://benchdogs.co.uk/)
 
 * **Microjig GRR-Ripper:** Still one of the best push block systems out there. A must-have for safer cuts on any saw.
-  [Microjig GRR-Ripper](https://www.microjig.com/products/grr-ripper)
+  * [Microjig GRR-Ripper](https://www.microjig.com/products/grr-ripper)
 
 *These are not affiliate links.*
