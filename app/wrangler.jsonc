@@ -6,7 +6,7 @@
 			"pattern": "hashtagsheep.com",
 			"custom_domain": true
 		},		
-		"*.hashtagsheep.com/*"
+		"www.hashtagsheep.com/*"
 	],
 	"env": {
 		"dev": {
