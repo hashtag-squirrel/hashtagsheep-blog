@@ -1,0 +1,6 @@
+{
+  "recommendations": [
+    "EditorConfig.EditorConfig",
+    "astro-build.astro-vscode"
+  ]
+}
