@@ -55,7 +55,7 @@ Time for some good old-fashioned spec sheet stuff. Don't worry, I'll share what 
 * **Precision:** The digital controls are surprisingly useful. Calibrate once, and then just dial in your angle or depth. No guesswork, no extra measuring tools. Battery status on-screen is a nice bonus.
 * **Sliding table:** A built-in crosscut sled, kind of. Makes cuts more accurate and safer, especially with the T-rail clamping options.
 * **Blade changes:** Quick and fuss-free, something I wish more saws got right.
-* **Bluetooth connectivity:** Not essential, but surprisingly clever. Festool's system, lets your cordless tools automatically trigger your shop vac, saving you a trip to the switch. You can also check your saw's status and adjust your balde presets (angle and height) directly in the app... handy features, even if they feel a bit over the top at first.
+* **Bluetooth connectivity:** Not essential, but surprisingly clever. Festool's system lets your cordless tools automatically trigger your shop vac, saving you a trip to the switch. You can also check your saw's status and adjust your blade presets (angle and height) directly in the app... handy features, even if they feel a bit over the top at first.
 * **Battery turnaround:** Swap and go. Runtime is more than enough for typical shop tasks. A dual charger is a must-have in my opinion, some packages include one, but if not, definitely consider it. You'll want fresh batteries ready at all times to keep the workflow smooth.
 
 ## The bad
