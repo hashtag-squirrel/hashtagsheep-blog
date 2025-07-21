@@ -110,10 +110,11 @@ web_modules/
 .next
 out
 
-# Nuxt.js build / generate output
+# Nuxt.js/astro build / generate output
 
 .nuxt
-dist
+.astro/
+dist/
 
 # Gatsby files
 
