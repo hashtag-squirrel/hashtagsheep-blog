@@ -5,7 +5,7 @@ image:
     url: "/images/cover/tools-wall.webp"
     alt: "A workshop wall full of power tools"
     attributionText: "hashtagsheep"
-    attributionLink: "www.hashtagsheep.com"
+    attributionLink: "#"
 categories: ["Woodworking", "Tip"]
 tags: ["featured"]
 sponsorDisclaimer: true

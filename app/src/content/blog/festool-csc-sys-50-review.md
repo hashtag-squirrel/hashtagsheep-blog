@@ -5,7 +5,7 @@ image:
     url: "/images/cover/festool-csc-sys-50.webp"
     alt: "A Festool table saw"
     attributionText: "hashtagsheep"
-    attributionLink: "www.hashtagsheep.com"
+    attributionLink: "#"
 categories: ["Woodworking", "Review"]
 tags: ["featured", "festool"]
 sponsorDisclaimer: true
