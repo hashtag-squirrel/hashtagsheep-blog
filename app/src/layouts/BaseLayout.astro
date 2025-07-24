@@ -18,7 +18,15 @@ const { pageTitle } = Astro.props;
 		<meta name="generator" content={Astro.generator} />
 		<meta name="description" content="A blog about woodworking, 3D printing, and the joy of making stuff" />
 		<title>{pageTitle}</title>
-		<script defer data-domain="hashtagsheep.com" src="https://plausible.io/js/script.js"></script>
+		<script defer data-domain="hashtagsheep.com" src="https://plausible.io/js/script.outbound-links.pageview-props.tagged-events.js"
+		></script>
+		<script>
+			window.plausible =
+				window.plausible ||
+				function () {
+					(window.plausible.q = window.plausible.q || []).push(arguments);
+				};
+		</script>
 	</head>
 	<body>
 		<Header />
