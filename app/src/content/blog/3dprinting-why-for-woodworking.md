@@ -15,29 +15,17 @@ If you'd told me a few years ago that one of my favorite workshop tools would be
 
 ## It's not just for cosplay helmets
 
-When people think of 3D printing, they often imagine action figures, miniature game terrain, or elaborate Iron Man helmets. While that's cool (and hey, no judgment, I've printed my fair share of nerdy stuff), there's so much more potential for practical use, especially for woodworkers.
+When people think of 3D printing, they often imagine action figures, miniature game terrain, or elaborate Iron Man helmets. While that's cool (and hey, no judgment, I've printed my fair share of nerdy stuff), there's so much more potential for practical use, especially for woodworkers. If you're thinking, "But wait, I want to work with wood, not plastic!" don't worry. 3D printing isn't here to replace wood; it's simply a great complement that helps streamline your workflows.
 
 I started using 3D printing as a way to make jigs, brackets, tool holders, dust collection adapters, and all the small bits and pieces that are either hard to find or overpriced in the woodworking world. Got an awkward angle to clamp? Design a custom spacer. Need a vacuum adapter that fits your weird Festool-to-Makita situation? Print it. Want to make your own zero-clearance insert? Done.
 
 Basically, if it's plastic and needs to be custom, you can probably print it.
 
-## How it complements woodworking (V1)
+## There's a whole hive out there
 
-As a woodworker, you're already used to solving problems, thinking spatially, and making things that *fit*, sometimes with a lot of trial and error. CAD and 3D printing fit right into that mindset. It's just another material and another way to make the workshop work for you.
+If you're already using CAD tools for woodworking, good news, you already have the skills and software needed to design for 3D printing too. 
 
-And here's the thing: 3D-printed parts don't replace wood. They complement it. Think of it as adding a new helper in the shed that's always available and doesn't complain when you make them do the same task fifty times.
-
-## How it complements woodworking (v2)
-
-3D printing fits into woodworking not by replacing it, but by streamlining the workflow around it. It's like having a workshop helper who's great at the repetitive, precise stuff... always ready to make the next identical part without complaining.
-
-Those moments where a custom solution would save time or make a task safer or cleaner, but you'd never build it from wood because it's too small, too fiddly, or just not worth the effort. That's where the printer shines.
-
-And if you're already using CAD tools for woodworking, good news, you already have the skills and software needed to design for 3D printing too.
-
-## There's a whole design army out there
-
-Even if you're not into designing parts yourself, you're not out of luck. There are hundreds, if not thousands, of clever designers solving workshop problems and sharing their creations for free. Platforms like [MakerWorld](https://makerworld.com) and [Thingiverse](https://www.thingiverse.com) are packed with ready-to-print jigs, holders, clamps, and adapters made by fellow makers who love solving the same kinds of problems you do. Just search, download, and print. It's like having a toolbox full of ideas from around the world.
+However, even if you're not into designing parts yourself, you're not out of luck. There are hundreds, if not thousands, of clever designers solving workshop problems and sharing their creations for free. Platforms like [MakerWorld](https://makerworld.com) and [Thingiverse](https://www.thingiverse.com) are packed with ready-to-print jigs, holders, clamps, and adapters made by fellow makers who love solving the same kinds of problems you do. Just search, download, and print. It's like having a toolbox full of ideas from around the world.
 
 I've started sharing some of my own creations too, feel free to check out my designs on [MakerWorld - @hashtagsheep](https://makerworld.com/@hashtagsheep).
 
