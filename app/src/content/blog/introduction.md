@@ -7,7 +7,7 @@ image:
     attributionText: "reetdachfan"
     attributionLink: "https://pixabay.com/users/reetdachfan-4934/"
 categories: ["Ramble"]
-tags: ["featured"]
+tags: []
 sponsorDisclaimer: false
 ---
 
