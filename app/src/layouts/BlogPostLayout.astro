@@ -23,11 +23,11 @@ const { frontmatter } = Astro.props;
 		}}
 	>
 		<slot />
-		<Button class="tag" href={`/blog`}>All</Button>
+		<Button class="category" href={`/blog`}>All</Button>
 		{
-			frontmatter.tags.map((tag: string) => (
-				<Button class="tag" href={`/tags/${tag}`}>
-					{tag}
+			frontmatter.categories.map((category: string) => (
+				<Button class="category" href={`/blog/${category}`}>
+					{category}
 				</Button>
 			))
 		}
