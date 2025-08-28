@@ -13,7 +13,8 @@ const blog = defineCollection({
         attributionLink: z.string()
       }).optional(),
       categories: z.array(z.string()),
-      tags: z.array(z.string())
+      tags: z.array(z.string()),
+      series: z.string()
     })
 });
 

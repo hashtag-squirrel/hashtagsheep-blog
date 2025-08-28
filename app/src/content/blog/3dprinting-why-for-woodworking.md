@@ -8,6 +8,7 @@ image:
     attributionLink: https://www.pexels.com/@tibszabo/
 categories: ["3D Printing", "Tip"]
 tags: ["featured"]
+series: ""
 sponsorDisclaimer: true
 ---
 

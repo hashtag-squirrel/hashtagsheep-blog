@@ -8,6 +8,7 @@ image:
     attributionLink: "#"
 categories: ["Woodworking", "Tip"]
 tags: ["featured"]
+series: "woodworking-101"
 sponsorDisclaimer: true
 ---
 

@@ -3,6 +3,7 @@ import { getCollection, render } from 'astro:content';
 import BlogPostLayout from '../../layouts/BlogPostLayout.astro';
 import Paragraph from 'fulldev-ui/components/Paragraph.astro'
 import Banner from 'fulldev-ui/blocks/Banner.astro'
+import SeriesList from '../../components/SeriesList.astro';
 
 export async function getStaticPaths() {
 	const posts = await getCollection('blog');
@@ -12,12 +13,20 @@ export async function getStaticPaths() {
 	}));
 }
 
+
 const { post } = Astro.props;
 const { Content } = await render(post);
+const allPosts = await getCollection('blog');
+const currentSeries = post.data.series;
+const seriesPosts = allPosts.filter(post => post.data.series === currentSeries).sort((a, b) => Date.parse(a.data.pubDate) - Date.parse(b.data.pubDate));
+
 ---
 
 <BlogPostLayout frontmatter={post.data}>
 	<Content />
+	{post.data.series ?
+	<SeriesList posts={seriesPosts}></SeriesList>
+	: null}
 	<hr>
 	<Paragraph>I hope you enjoyed the read, and if not, that's fine too! Feel free to share your thoughts or reach out on 
 		<a href="https://www.instagram.com/hashtagsheep/">Instagram</a> or <a href="https://www.facebook.com/profile.php?id=61576148252503">Facebook</a>.

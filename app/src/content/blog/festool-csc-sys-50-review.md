@@ -8,6 +8,7 @@ image:
     attributionLink: "#"
 categories: ["Woodworking", "Review"]
 tags: ["featured", "festool"]
+series: ""
 sponsorDisclaimer: true
 ---
 
