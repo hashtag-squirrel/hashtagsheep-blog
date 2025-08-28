@@ -7,7 +7,8 @@ image:
     attributionText: "hashtagsheep"
     attributionLink: "#"
 categories: ["Woodworking", "Tip"]
-tags: ["featured"]
+tags: []
+series: "woodworking-101"
 sponsorDisclaimer: true
 ---
 
@@ -78,4 +79,4 @@ Also: check the second-hand market. Great deals are out there, and it's a low-ri
 
 And finally, whatever you buy, make sure you learn the basics of safety. Power tools are fun, but they've got bite.
 
-In part two, **Let's go shopping**, I'll go over the workshop gear I'd recommend buying when starting out: what you really need, what can wait, and what's just nice to have in your setup.
+In part two, [Let's go shopping](/blog/woodworking-101-part2), I'll go over the workshop gear I'd recommend buying when starting out: what you really need, what can wait, and what's just nice to have in your setup.

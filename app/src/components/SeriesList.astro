@@ -1,0 +1,21 @@
+---
+const { currentPost, posts } = Astro.props;
+---
+
+<hr>
+<p><strong>Explore the series:</strong></p>
+<ul>
+	{
+		posts.map((post: any) => (
+			<li>
+				{post.id === currentPost.id ? (
+					<em>
+						<a href={`/blog/${post.slug}`}>{post.data.title}</a>
+					</em>
+				) : (
+					<a href={`/blog/${post.slug}`}>{post.data.title}</a>
+				)}
+			</li>
+		))
+	}
+</ul>
