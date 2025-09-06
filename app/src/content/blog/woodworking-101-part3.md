@@ -1,6 +1,6 @@
 ---
 title: "Woodworking 101 - Part 3 - Let's go shopping: workshop essentials"
-pubDate: 
+pubDate:
 image:
     visible: false
     url:
@@ -57,11 +57,11 @@ On top of that, a solid and flat work surface gives you a reliable base for clam
 Here are a few common options, from basic setups to more advanced systems:
 
 - **Go with what you've got:** An old table works fine, as long as it doesn't wobble and has a surface where you can clamp things down.
-- **DIY route:** Four basic table legs (around €10 EUR/USD each) and an edge-glued board or kitchen-style benchtop (starting at 30 EUR/USD per meter) will give you a solid custom surface.
+- **DIY route:** The simplest option? Four basic table legs (around €10 EUR/USD each) and an edge-glued board or kitchen-style benchtop (starting at 30 EUR/USD per meter). That's enough to create a solid and reliable surface to get started. From there, you can go all-in on upgrades and custom builds: your space, budget, and willingness to tinker are the only limits. There's no shortage of creative ideas on YouTube if you're looking for inspiration.
 - **Folding workbench:** These compact benches often come with a small clamping surface and foldable legs, making them easy to store and set up. They're widely available in construction stores or hardware chains and offer great value for hobby workshops. Entry-level models start at a reasonable price (around 50 EUR/USD), but options from well-known tool manufacturers can climb quickly in cost, especially if they include built-in clamping systems, better stability, or modular add-ons.
 - **Mobile workstations:** Brands like [Ryobi](https://www.ryobitools.com/products/33287194926?srsltid=AfmBOopTmRpK7pEtu2u18RLsoqslCu2YocCNPGNA1vx5wiLSL_VPagoT), [Kreg](https://www.kregtool.com/shop/cutting/track-saw-cutting/adaptive-cutting-system-master-kit/ACS3100.html), and [Festool](https://www.festool.com/accessory/sawing/underframes-and-work-benches/work-benches/495315---mft3) offer more advanced all-in-one solutions with built-in clamping systems, cutting guides, tool storage, and expandable surfaces. The price tag can cause a bit of lightheadedness, but they're incredibly useful, especially if you're working in a smaller space like I am or want a flexible mobile setup.
 - **Full workbench systems** - Drawers, vises, dog holes… and a hefty price tag. These are fantastic if you have the space and budget, but not something most beginners need right away. That said, I'd actually recommend building one yourself at some point, it's a great learning project, and small imperfections won't matter. You'll gain experience, and end up with a system tailored to your workflow and space.
-  
+
 ## Other essentials
 
 It's worth picking up a small set of **standard hand tools** to cover basic tasks. You don't need anything fancy, but these come in handy more often than you'd think. You can often find starter kits that bundle these tools together (around 40-80 EUR/USD). They don't have to be pro-grade, just solid, reliable, and ready when you need them.
