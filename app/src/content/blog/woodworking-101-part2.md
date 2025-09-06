@@ -2,10 +2,10 @@
 title: "Woodworking 101 - Part 2 - Let's go shopping: protective gear"
 pubDate: 2025-08-29
 image:
-    url: "/images/cover/protective-gear.webp"
-    alt: "Woman in a workshop wearing protective gear"
-    attributionText: "Tima Miroshnichenko"
-    attributionLink: https://www.pexels.com/@tima-miroshnichenko/
+    url:
+    alt:
+    attributionText:
+    attributionLink:
 categories: ["Woodworking", "Tip"]
 tags: ["featured"]
 series: "woodworking-101"
