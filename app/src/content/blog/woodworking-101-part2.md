@@ -2,10 +2,10 @@
 title: "Woodworking 101 - Part 2 - Let's go shopping: protective gear"
 pubDate: 2025-08-29
 image:
-    url:
-    alt:
-    attributionText:
-    attributionLink:
+    url: "/images/cover/workshop-protective-gear.webp"
+    alt: "Workshop protective gear including safety glasses, hearing protection, and a respirator"
+    attributionText: "hashtagsheep"
+    attributionLink: "#"
 categories: ["Woodworking", "Tip"]
 tags: ["featured"]
 series: "woodworking-101"

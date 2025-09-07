@@ -2,11 +2,10 @@
 title: "Woodworking 101 - Part 3 - Let's go shopping: workshop essentials"
 pubDate:
 image:
-    visible: false
-    url:
-    alt:
-    attributionText:
-    attributionLink:
+    url: "/images/cover/workshop-essentials.webp"
+    alt: "Workshop essentials including a tape measure and pencils"
+    attributionText: "hashtagsheep"
+    attributionLink: "#"
 categories: ["Woodworking", "Tip"]
 tags: ["featured"]
 series: "woodworking-101"
