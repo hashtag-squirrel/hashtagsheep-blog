@@ -7,7 +7,7 @@ image:
     attributionText: "hashtagsheep"
     attributionLink: "#"
 categories: ["Woodworking", "Tip"]
-tags: ["featured"]
+tags: []
 series: "woodworking-101"
 sponsorDisclaimer: true
 ---
