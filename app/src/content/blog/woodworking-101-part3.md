@@ -1,6 +1,6 @@
 ---
 title: "Woodworking 101 - Part 3 - Let's go shopping: workshop essentials"
-pubDate:
+pubDate: 2025-09-19
 image:
     url: "/images/cover/workshop-essentials.webp"
     alt: "Workshop essentials including a tape measure and pencils"
@@ -22,16 +22,16 @@ Pencils are the first thing you'll need for almost any woodworking task. My go-t
 
 There are also specialized marking pencils, like those from [Pica](https://pica-marker.com/en/heroes/pica-dry-marker/). These are designed for professionals and work on almost any material. They include features aimed at jobsite convenience, such as built-in sharpeners and better grip when wearing gloves. They also come in various colors and lead types, which is especially helpful when working with darker woods, tricky lighting, or unusual materials. They're a bit of an investment (around 15 EUR/USD), but one that pays off if you do a lot of marking or often work in less-than-ideal conditions.
 
-You might also hear people talk about marking knives. These are super accurate tools used to scribe crisp, clean layout lines, especially helpful for joinery. But as a beginner, I'd hold off. They're not expensive, but they're more of a precision tool for later down the line, once you're comfortable with basic layouts and want to improve accuracy.
+You might also hear people talk about marking knives. These are super accurate tools used to mark crisp, clean layout lines, especially helpful for joinery. But as a beginner, I'd hold off. They're not expensive, but they're more of a precision tool for later down the line, once you're comfortable with basic layouts and want to improve accuracy.
 
 Also worth mentioning: carpenter pencils. These are thick, oval-shaped pencils that won't roll away and are great for rough work or marking on dusty and dirty surfaces. However, they're not ideal for precise marking since the tip wears down quickly unless you sharpen it often (and with a knife, not a regular sharpener). Because of that, I wouldn't recommend them for general use in a woodworking workshop.
 
 ## Measuring tools
 
-There's a surprising variety of tools and techniques for measuring in woodworking, it's a rabbit hole all its own and will get its own blog post soon. But for now, a few essentials will do the trick:
+There's a surprising variety of tools and techniques for measuring in woodworking, it's a rabbit hole all of its own and will get its own blog post soon. But for now, a few essentials will do the trick:
 
-- **Tape measure:** One of the most versatile and most-used tools in any workshop. Don't overdo it with the length, you don't need a 10-meter tape for building a bookshelf. A compact 3-5 meter model from a reliable brand is accurate, durable, and has a fair pricing (around 10-15 EUR/USD).
-- **Speed square:** This compact triangle is more versatile than it looks. It helps mark accurate 90° and 45° angles, includes notches for drawing parallel lines, and even works as a quick saw guide. A 15-20 cm (6-8 inch) model covers most needs. Solid options are available from local manufacturers like [Hultafors](https://hultafors.com/en-gl/collections/squares/products/rafter-square) (starting at 15 EUR/USD) or international brands like [Empire](https://www.empirelevel.com/rafter-squares.php) (around 15-35 EUR/USD).
+- **Tape measure:** One of the most versatile and most-used tools in any workshop. Don't overdo it with the length, you don't need a 10-meter tape for building a bookshelf. A compact 3-5 meter model from a reliable brand is accurate, durable, and has a fair price (around 10-15 EUR/USD).
+- **Speed square:** Also sometimes called rafter square, this compact triangle is more versatile than it looks. It helps mark accurate 90° and 45° angles, includes notches for drawing parallel lines, and even works as a quick saw guide. A 15-20 cm (6-8 inch) model covers most needs. Solid options are available from local manufacturers like [Hultafors](https://hultafors.com/en-gl/collections/squares/products/rafter-square) (starting at 15 EUR/USD) or international brands like [Empire](https://www.empirelevel.com/rafter-squares.php) (around 15-35 EUR/USD).
 
 Just a heads-up: high-end versions of these can get pricey fast. They're beautifully made, incredibly precise, and often come with clever or unique features that solve common workshop headaches. But for beginners, they're usually total overkill... you'll get more value putting that budget elsewhere.
 
@@ -41,9 +41,9 @@ Also worth having: something that functions as a long straight edge. This could 
 
 Ah yes, clamps. Another rabbit hole.. and yes, I'll write a dedicated post on this too.
 
-For starters, go with quick clamps (also called one-hand clamps). They're available in a wide range of lengths: short ones for small boxes, longer ones for panels and frames. Some models come with clever features like reversible heads (to switch between clamping and spreading) or rotating jaws for odd angles. Super versatile, and great for almost any beginner project. I'd recommend starting with **four**, that's usually enough for small to medium projects. My most-used size is 30 (12 inches). Don't buy the absolute cheapest ones, they often use softer steel, which can cause the clamps to flex or get stuck. Others don't apply enough pressure, or worse, they might suddenly spring open when you least expect it. Spending a bit more for a reputable brand like [Bessey](https://besseytools.com/en-us/bessey-tools-north-america/products/clamping-tools/one-handed-clamps/ehk-trigger-clamp) or [IRWIN](https://www.irwintools.com/product/1964717/quick-grip-medium-duty-one-handed-bar-clamps?tid=578181) is absolutely worth it (starting at 15 EUR/USD).
+For starters, go with quick clamps (also called one-hand clamps). They're available in a wide range of lengths: short ones for small boxes, longer ones for panels and frames. Some models come with clever features like reversible heads (to switch between clamping and spreading) or rotating jaws for odd angles. Super versatile, and great for almost any beginner project. I'd recommend starting with **four**, that's usually enough for small to medium projects. My most-used size is 30 cm (12 inches). Don't buy the absolute cheapest ones, they often use softer steel, which can cause the clamps to flex or get stuck. Others don't apply enough pressure, or worse, they might suddenly spring open when you least expect it. Spending a bit more for a reputable brand like [Bessey](https://besseytools.com/en-us/bessey-tools-north-america/products/clamping-tools/one-handed-clamps/ehk-trigger-clamp) or [IRWIN](https://www.irwintools.com/product/1964717/quick-grip-medium-duty-one-handed-bar-clamps?tid=578181) is absolutely worth it (starting at 15 EUR/USD).
 
-There's a saying: *you can never have too many clamps*. That's definitely true when it comes to owning theml... I've yet to hear anyone complain about having extra clamps lying around. But when you're actually applying pressure, too much clamping force can do more harm than good. More on that in the mentioned future post, where I'll go into types of clamps, best on how to apply the right amount of pressure, and a few tips on getting it just right. For now, just remember: **tight is good, but tighter isn't always better**.
+There's a saying: *you can never have too many clamps*. That's definitely true when it comes to owning them... I've yet to hear anyone complain about having extra clamps lying around. But when you're actually applying pressure, too much clamping force can do more harm than good. More on that in the mentioned future post, where I'll go into types of clamps, how to apply the right amount of pressure, and a few tips on getting it just right. For now, just remember: **tight is good, but tighter isn't always better**.
 
 Also worth mentioning: if someone in your family or circle still has some old handscrew clamps or wooden clamps, ask if you can adopt them. They're still incredibly useful for delicate or oddly shaped workpieces.
 
@@ -70,7 +70,7 @@ It's worth picking up a small set of **standard hand tools** to cover basic task
 - **Allen keys (hex keys):** Commonly needed for assembling furniture or making adjustments on machines.
 - **Wrenches or small spanners:** For bolts, nuts, and tool tweaks. A basic adjustable wrench is fine, but if you want something smoother and quicker, look at ratcheting spanners (click-style wrenches) or a combination wrench set with open and box ends.
 
-Now that we've got the out of the way, let's look at a few other low-key MVPs of the workshop:
+Now that we've got the basics out of the way, let's look at a few other low-key MVPs of the workshop:
 
 - **Masking tape:** Seriously, you'll use it constantly. Great for layout, marking, labeling, temporary assembly… all sorts of stuff (less than 5-10 EUR/USD).
 - **A deck of playing cards:** Sounds silly, but they make perfect adjustable spacers. Grab an old deck or buy a cheap one you don't mind getting dusty (less than €1 EUR/USD).
