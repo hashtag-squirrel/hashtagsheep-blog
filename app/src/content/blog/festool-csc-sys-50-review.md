@@ -7,7 +7,7 @@ image:
     attributionText: "hashtagsheep"
     attributionLink: "#"
 categories: ["Woodworking", "Review"]
-tags: ["featured", "festool"]
+tags: ["featured"]
 series: ""
 sponsorDisclaimer: true
 ---
