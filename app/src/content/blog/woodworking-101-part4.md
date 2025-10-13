@@ -1,6 +1,6 @@
 ---
 title: "Woodworking 101 - Part 4 - Let's go shopping: power tools"
-pubDate:
+pubDate: 2025-10-13
 image:
     url: "/images/cover/tools-shopping.webp"
     alt: "A man walking through a construction site marked along an aisle of tools"
