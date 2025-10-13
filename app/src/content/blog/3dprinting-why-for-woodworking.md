@@ -24,7 +24,7 @@ Basically, if it's plastic and needs to be custom, you can probably print it.
 
 ## There's a whole hive out there
 
-If you're already using CAD tools for woodworking, good news, you already have the skills and software needed to design for 3D printing too. 
+If you're already using CAD tools for woodworking, good news, you already have the skills and software needed to design for 3D printing too.
 
 However, even if you're not into designing parts yourself, you're not out of luck. There are hundreds, if not thousands, of clever designers solving workshop problems and sharing their creations for free. Platforms like [MakerWorld](https://makerworld.com) and [Thingiverse](https://www.thingiverse.com) are packed with ready-to-print jigs, holders, clamps, and adapters made by fellow makers who love solving the same kinds of problems you do. Just search, download, and print. It's like having a toolbox full of ideas from around the world.
 
