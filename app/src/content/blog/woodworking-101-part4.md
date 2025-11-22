@@ -7,7 +7,7 @@ image:
     attributionText: "Oxana Melis"
     attributionLink: "https://unsplash.com/@oksdesign"
 categories: ["Woodworking", "Tip"]
-tags: ["featured"]
+tags: []
 series: "woodworking-101"
 sponsorDisclaimer: true
 ---
