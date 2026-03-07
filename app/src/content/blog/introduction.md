@@ -32,7 +32,7 @@ About stepping away from digital stuff: that didn't last long. As I tackled more
 
 Let's start with the why. I consume a lot of woodworking content in all formats. While I enjoy videos, I sometimes miss the good old written word, something I can read quietly, at my own pace, without audio or distraction. Plus, for me, writing is easier than filming (massive respect to the video creators out there).
 
-There's also an Instagram and Facebook page (and maybe a YouTube channel down the road) for those who prefer moving pictures. I enjoy the simple things, but I'm not from yesterday.
+There's also an Instagram and Mastodon page (and maybe a YouTube channel down the road) for those who prefer moving pictures. I enjoy the simple things, but I'm not from yesterday.
 
 This blog will cover all the classic topics: tips and tricks, beginner guides, project showcases, tool reviews, and personal stories from the shed. Basically, anything I've learned as a passionate, not-quite-professional maker.
 
@@ -48,4 +48,4 @@ The hashtag? A light-hearted jab at social media culture. I'm part of it like mo
 
 ## Join the flock
 
-If you're into woodworking, making, or just enjoy following nerdy projects, feel free to stick around. You'll find me here on the blog, and on [Instagram](https://instagram.com/hashtagsheep), [Facebook](https://facebook.com/hashtagsheep) and [MakerWorld](https://makerworld.com/en/@hashtagsheep), too.
+If you're into woodworking, making, or just enjoy following nerdy projects, feel free to stick around. You'll find me here on the blog, and on [Instagram](https://instagram.com/hashtagsheep), [Mastodon](https://mastodon.social/@hashtagsheep) and [MakerWorld](https://makerworld.com/en/@hashtagsheep), too.

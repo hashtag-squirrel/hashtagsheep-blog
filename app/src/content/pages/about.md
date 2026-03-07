@@ -28,6 +28,6 @@ None of this would look as good without my amazing wife. She built this blog and
 
 ## Join the flock
 
-If you're into woodworking, making, or just enjoy following nerdy projects, feel free to stick around. You'll find me here on the blog, and on [Instagram](https://instagram.com/hashtagsheep), [Facebook](https://facebook.com/hashtagsheep) and [MakerWorld](https://makerworld.com/en/@hashtagsheep), too. Maybe even YouTube one day.
+If you're into woodworking, making, or just enjoy following nerdy projects, feel free to stick around. You'll find me here on the blog, and on [Instagram](https://instagram.com/hashtagsheep), [Mastodon](https://mastodon.social/@hashtagsheep) and [MakerWorld](https://makerworld.com/en/@hashtagsheep), too. Maybe even YouTube one day.
 
 Welcome to my shed! 🐑🔧🪚
