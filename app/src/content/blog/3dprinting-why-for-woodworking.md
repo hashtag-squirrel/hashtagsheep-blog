@@ -7,7 +7,7 @@ image:
     attributionText: Tibor Szabo
     attributionLink: https://www.pexels.com/@tibszabo/
 categories: ["3D Printing", "Tip"]
-tags: ["featured"]
+tags: []
 series: ""
 sponsorDisclaimer: true
 ---
