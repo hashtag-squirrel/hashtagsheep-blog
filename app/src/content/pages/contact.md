@@ -6,6 +6,7 @@ If you'd like to get in touch, the best way is through one of my social channels
 
 - [Instagram](https://instagram.com/hashtagsheep)
 - [Mastodon](https://mastodon.social/@hashtagsheep)
+- [Bluesky](https://bsky.app/profile/hashtagsheep.bsky.social)
 
 I don't maintain a public contact form or inbox for this site, but I'm happy to respond to relevant messages on those platforms. Please reach out there for questions, feedback, or collaboration ideas.
 

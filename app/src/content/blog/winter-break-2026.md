@@ -24,8 +24,9 @@ A surprising amount of that data is connected to this blog. Somehow I already en
 
 As a software engineer by trade, this is a topic I care deeply about, so it turned into a proper personal project.
 
-Part of that project was also creating a Mastodon account:  
-<https://mastodon.social/@hashtagsheep>
+Part of that project was also creating a Mastodon and Bluesky account:  
+- <https://mastodon.social/@hashtagsheep>
+- <https://bsky.app/profile/hashtagsheep.bsky.social>
 
 To be honest, Mastodon was something I largely ignored for a long time... which in hindsight it probably should not have been. I am still figuring out the platform and want to experiment a bit to see if I can move more of my social media activity there.
 
