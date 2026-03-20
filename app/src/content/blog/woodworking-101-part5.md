@@ -7,7 +7,7 @@ image:
     attributionText: "cottonbro studio"
     attributionLink: "https://www.pexels.com/@cottonbro/"
 categories: ["Woodworking", "Tip"]
-tags: ["featured"]
+tags: []
 series: "woodworking-101"
 sponsorDisclaimer: true
 ---
